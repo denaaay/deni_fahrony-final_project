@@ -423,7 +423,8 @@ footer {
     align-items: center;
     gap: 1rem;
     background-color: #686DE0;
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     color: white;
     font-size: 20px;
 }
