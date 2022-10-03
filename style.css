@@ -1,0 +1,501 @@
+body {
+    margin: 0;
+    background-color: white;
+    font-family: Poppins;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.content {
+    width: 80%;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    position: relative;
+}
+
+header > h1 {
+    color: #30336B;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+header > h1 > span {
+    color: #4834D4;
+}
+
+nav {
+    display: flex;
+    gap: 50px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #30336B;
+    font-size: 20px;
+}
+
+nav > a:hover {
+    color: #4834D4;
+}
+
+.home {
+    margin-top: 130px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 120px;
+}
+
+.home-text {
+    color: #30336B;
+}
+
+.home-text > p {
+    font-size: 25px;
+}
+
+.home-text > p > span {
+    color: #4834D4;
+}
+
+.home-text > h1 {
+    color: #30336B;
+    font-size: 85px;
+    font-weight: bold;
+}
+
+.home-text > a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    align-items: center;
+    gap: 20px;
+}
+
+.home-text > a > p {
+    font-size: 25px;
+    color: #4834D4;
+}
+
+.home-text > a > div {
+    width: 35px;
+    height: 35px;
+}
+
+.home > img{
+    width: 470px;
+}
+
+.about {
+    width: 100%;
+    margin-top: 50px;
+    background-color: #686DE0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-me {
+    width: 75%;
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    position: relative;
+}
+
+.about-me > article > h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about-me > article > p {
+    width: 80%;
+    text-align: justify;
+    font-size: 30px;
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+
+.about-me > article > section {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.about-me > article > section > div {
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about-me > article > section > div > p {
+    font-size: 20px;
+    color: #686DE0;
+    text-align: right;
+    padding: 0 8px 0 8px;
+}
+
+.about-me > article > section > div > a > img {
+    padding: 5px 8px 5px 0;
+    vertical-align: middle;
+}
+
+main {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.edu-title {
+    text-align: center;
+}
+
+.edu-title > h1 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #30336B;
+}
+
+.edu-title > h1 > span {
+    color: #4834D4;
+}
+
+.edu-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.edu-shs {
+    width: 500px;
+    height: max-content;
+    background-color: #30336B;
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+    position: relative;
+}
+
+.edu-collage {
+    width: 500px;
+    height: max-content;
+    background-color: #686DE0;
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+    margin-top: 120px;
+    position: relative;
+}
+
+.edu-shs > h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.edu-shs > p {
+    font-size: 30px;
+}
+
+.edu-collage > h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.edu-collage > p {
+    font-size: 30px;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.port-title {
+    text-align: center;
+}
+
+.port-title > h1 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #30336B;
+}
+
+.port-title > h1 > span {
+    color: #4834D4;
+}
+
+.github {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.git1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.git2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.git1-pro {
+    width: 550px;
+    background-color: #30336B;
+    border-radius: 15px;
+}
+
+.git1-pro > img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.git1-pro > div {
+    color: white;
+    font-size: 25px;
+    padding: 15px 18px 15px 18px;
+}
+
+.git1 > section {
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+}
+
+.git1-div {
+    width: 450px;
+    background-color: #30336B;
+    color: white;
+    font-size: 25px;
+    padding: 15px 18px 15px 18px;
+    border-radius: 15px;
+}
+
+.git2-pro {
+    width: 550px;
+    background-color: #30336B;
+    border-radius: 15px;
+}
+
+.git2-pro > img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.git2-pro > div {
+    color: white;
+    font-size: 25px;
+    padding: 15px 18px 15px 18px;
+}
+
+.git2 > section {
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+}
+
+.git2-div {
+    width: 450px;
+    background-color: #30336B;
+    color: white;
+    font-size: 25px;
+    padding: 15px 18px 15px 18px;
+    border-radius: 15px;
+}
+
+.figma {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 11rem;
+}
+
+.figma > article {
+    margin-top: 50px;
+    width: 265px;
+    background-color: #30336B;
+    color: white;
+    border-radius: 15px;
+    font-size: 25px;
+}
+
+.figma > article > div {
+    background-color: #E6E7F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 200px;
+}
+
+.figma > article > div > img {
+    width: 60%;
+    padding: 15px 18px 15px 18px;
+}
+
+.figma > article > p {
+    width: 100%;
+    display: flex;
+    text-align: start;
+    padding: 15px 18px 15px 18px;
+}
+
+.more-projects {
+    width: max-content;
+    margin-bottom: 50px;
+    color: #30336B;
+    font-size: 20px;
+}
+
+.more-projects > div {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.more-projects > div > section {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.more-projects > div > section > a {
+    text-decoration: none;
+}
+
+.more-projects > div > section > a > img {
+    width: 32px;
+    height: 32px;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: #686DE0;
+    padding: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.about > div {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background-color: #686DE0;
+    border-radius: 50%;
+    opacity: 4%;
+    top: 660px;
+    left: 200px;
+    z-index: -1;
+}
+
+header > div {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-color: #686DE0;
+    border-radius: 50%;
+    opacity: 4%;
+    left: -300px;
+    bottom: -160px;
+    z-index: -1;
+}
+
+.about-div1 {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: #686DE0;
+    bottom: -220px;
+    left: -390px;
+    opacity: 4%;
+    z-index: -1;
+}
+
+.about-div2 {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: #686DE0;
+    bottom: -550px;
+    right: -390px;
+    opacity: 4%;
+    z-index: -1;
+}
+
+.edu-shs > div {
+    position: absolute;
+    height: 100%;
+    width: 200px;
+    top: 0px;
+    right: -75px;
+    border-radius: 50%;
+    background-color: #686DE0;
+    z-index: -1;
+    opacity: 4%;
+}
+
+.edu-collage > div {
+    position: absolute;
+    height: 100%;
+    width: 200px;
+    top: 0px;
+    left: -75px;
+    border-radius: 50%;
+    background-color: #686DE0;
+    z-index: -1;
+    opacity: 4%;
+}

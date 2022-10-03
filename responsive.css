@@ -1,0 +1,189 @@
+@media only screen and (max-width: 1080px) {
+    nav {
+        margin-top: 20px;
+    }
+
+    .content {
+        width: 90%;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 10px;
+    }
+
+    .home {
+        flex-direction: column;
+        margin-top: 70px;
+        padding-bottom: 30px;
+    }
+
+    .home-text {
+        width: 100%;
+    }
+
+    .home-text > p {
+        font-size: 20px;
+    }
+
+    .home-text > h1 {
+        font-size: 60px;
+    }
+
+    .home-text > a > div > img {
+        width: 90%;
+    }
+
+    .home > img {
+        width: 330px;
+        margin-top: 70px;
+    }
+
+    .about-me {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .about-me > article > p {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .about-me > article > section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-me > article > section > div {
+        width: max-content;
+    }
+
+    .education {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .edu-title {
+        text-align: start;
+    }
+
+    .edu-content {
+        margin-top: 40px;
+    }
+
+    .edu-collage {
+        margin-top: 30px;
+    }
+
+    .edu-shs > p {
+        font-size: 23px;
+    }
+
+    .edu-collage > p {
+        font-size: 23px;
+    }
+
+    .portfolio {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .port-title {
+        text-align: start;
+    }
+
+    .github {
+        gap: 0;
+    }
+
+    .git1 {
+        margin-top: 30px;
+        flex-direction: column;
+    }
+
+    .git1-pro {
+        width: 100%;
+    }
+
+    .git1 > section {
+        gap: 0;
+        width: 100%;
+    }
+
+    .git1-div {
+        margin-top: 20px;
+        width: 89%;
+    }
+
+    .git2 {
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+    .git2-pro {
+        width: 100%;
+    }
+
+    .git2 > section {
+        gap: 0;
+        width: 100%;
+    }
+
+    .git2-div {
+        margin-bottom: 20px;
+        width: 89%;
+    }
+
+    .figma {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        column-gap: 1rem;
+    }
+
+    .figma > article {
+        width: 155px;
+    }
+
+    .figma > article > div {
+        height: 130px;
+    }
+
+    .more-projects > div {
+        flex-direction: column;
+    }
+    
+    .more-projects > div > section {
+        justify-content: center;
+    }
+
+    footer {
+        width: 100%
+    }
+
+    .about > div {
+        position: static;
+        width: 0;
+        height: 0;
+    }
+
+    .about-div1 {
+        position: static;
+        width: 0;
+        height: 0;
+    }
+
+    .about-div2 {
+        position: static;
+        width: 0;
+        height: 0;
+    }
+
+    .edu-shs > div {
+        position: static;
+    }
+
+    .edu-collage > div {
+        position: static;
+    }
+}
