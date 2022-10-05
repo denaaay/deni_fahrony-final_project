@@ -167,6 +167,20 @@
         height: 0;
     }
 
+    .about-me > article > p {
+        font-size: 20px;
+    }
+
+    .git2-pro {
+        order: 1;
+    }
+
+    .git2 > section {
+        order: 2;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+
     .about-div1 {
         position: static;
         width: 0;
